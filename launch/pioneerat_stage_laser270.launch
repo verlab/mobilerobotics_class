@@ -1,0 +1,88 @@
+<!-- 
+  Turtlebot navigation simulation:
+  - stage
+  - map_server
+  - move_base
+  - static map
+  - amcl
+  - rviz view
+ -->
+<launch>
+  <!--<arg name="base"       default="$(optenv TURTLEBOT_BASE kobuki)"/>-->
+
+  <!-- Name of the map to use (without path nor extension) and initial position -->
+  <arg name="map_file"       default="$(find robots_roboticamovel_2018_2)/maps/maze.yaml"/> <!-- robopark_plan -->
+  <arg name="world_file"     default="$(find robots_roboticamovel_2018_2)/maps/stage/maze_pioneer.world"/>
+  <arg name="initial_pose_x" default="2.0"/>
+  <arg name="initial_pose_y" default="2.0"/>
+  <arg name="initial_pose_a" default="0.0"/>
+
+  <param name="/use_sim_time" value="true"/>
+  <!--  ******************** Stage ********************  -->
+  <!-- 
+        Publishes transforms:
+          /base_link -> /base_laser
+          /base_footprint -> /base_link (identity)
+          /odom -> base_footprint
+        Publishes topics:
+          /odom : odometry data from the simulated odometry
+          /base_scan : laser data from the simulated laser
+          /base_pose_ground_truth : the ground truth pose
+        Parameters:
+          base_watchdog_timeout : time (s) after receiving the last command on cmd_vel before stopping the robot
+        Args:
+          -g : run in headless mode.
+  --> 
+  <node pkg="stage_ros" type="stageros" name="stageros" args="$(arg world_file)">
+    <param name="base_watchdog_timeout" value="0.5"/>
+    <remap from="odom" to="odom"/>
+    <remap from="base_pose_ground_truth" to="base_pose_ground_truth"/>
+    <remap from="cmd_vel" to="mobile_base/commands/velocity"/>
+    <remap from="base_scan" to="scan"/>
+  </node>
+
+  <param name="robot_description" command="$(find xacro)/xacro.py $(find robots_roboticamovel_2018_2)/robots/pioneer3at.xacro" />
+  <node pkg="robot_state_publisher" type="state_publisher" name="robot_state_publisher">
+    <param name="publish_frequency" type="double" value="30.0"/>
+    <param name="tf_prefix" type="string" value=""/>
+  </node>
+
+  <node pkg="p2os_urdf" type="p2os_publisher_3at" name="publisher"/>
+  <node name="joint_state_publisher" pkg="joint_state_publisher" type="joint_state_publisher">
+    <param name="use_gui" value="true"/>
+  </node>
+
+    <!--  ****** Maps *****  -->
+  <node name="map_server" pkg="map_server" type="map_server" args="$(arg map_file)">
+    <param name="frame_id" value="/map"/>
+  </node>
+
+  <include file="$(find turtlebot_navigation)/launch/includes/amcl/amcl.launch.xml">
+    <arg name="scan_topic" value="scan"/>
+    <arg name="use_map_topic" value="true"/>
+    <arg name="initial_pose_x" value="$(arg initial_pose_x)"/>
+    <arg name="initial_pose_y" value="$(arg initial_pose_y)"/>
+    <arg name="initial_pose_a" value="$(arg initial_pose_a)"/>
+  </include>
+
+  <!--  ***************** Robot Model *****************  -->
+  <!-- <arg name="urdf_file" default="$(find xacro)/xacro.py '$(find robots_roboticamovel_2018_2)/robots/kobuki_hexagons_hokuyo.urdf.xacro'" /> -->
+<!--   <param name="robot_description" command="$(arg urdf_file)" />
+  <param name="robot/name" value="$(optenv ROBOT pioneer)"/>
+  <param name="robot/type" value="turtlebot"/> -->
+  
+<!--   <node pkg="robot_state_publisher" type="robot_state_publisher" name="robot_state_publisher">
+    <param name="publish_frequency" type="double" value="5.0" />
+  </node> -->
+
+  <!-- <node pkg="diagnostic_aggregator" type="aggregator_node" name="diagnostic_aggregator" >
+    <rosparam command="load" file="$(find turtlebot_bringup)/param/$(arg base)/diagnostics.yaml" />
+  </node> -->
+
+  <!--  **************** Visualisation ****************  -->
+  <node name="rviz" pkg="rviz" type="rviz" args="-d $(find robots_roboticamovel_2018_2)/rviz/turtlebot_navigation.rviz"/>
+</launch>
+
+
+<!-- This is the launch file for a Pioneer-3DX Robot with either -->
+<!-- a Hokuyo Laser or a SICK lms2XX Laser. -->
