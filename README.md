@@ -3,7 +3,7 @@ Repo with the robots used at the Mobile Robotic Class 2018-2
 
 Stage sim             |  Rviz visualization
 :-------------------------:|:-------------------------:
-![system](img/pioneer_stage_v1.png) <!-- .element width="200" -->  |  ![system](img/pioneer_v1.png | width=200) <!-- .element width="200" -->
+![system](img/pioneer_stage_v1.png) <!-- .element width="200" -->  |  ![system](img/pioneer_v1.png) <!-- .element width="200" -->
 
 ### Installation
 
