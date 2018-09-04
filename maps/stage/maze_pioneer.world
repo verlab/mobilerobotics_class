@@ -27,7 +27,6 @@ define floorplan model
   laser_return 1
 )
 
-
 # configure the GUI window
 window
 (
@@ -49,7 +48,6 @@ floorplan
   size [ 10.0 10.0 2.0 ]
   pose [  5.0  5.0 0.0 0.0 ]
 )
-
 
 pioneer3dx
 (		  

@@ -1,0 +1,27 @@
+include "differential_robot.inc"
+include "map.inc"
+
+window
+( 
+  size [ 811.000 642.000 ] 
+  center [-7.205 1.437] 
+  scale 71.472 # pixels per meter
+
+  show_data 1
+)
+
+floorplan
+( 
+  bitmap "hospital_section.png" 
+  map_resolution 0.02
+  size [40.000 18.000 0.600] 
+  name "hospital"
+  color "gray50"
+  gui_grid 1
+  gui_outline 1
+)
+
+pioneer(
+  name "differential_robot"
+  pose [-9.313 0.477 0 0]
+)
