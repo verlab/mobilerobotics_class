@@ -21,7 +21,20 @@ $ catkin_make
 
 ### Running the nodes
 
-There are 3 options to running the simulations:
+There are several options to running the simulations:
+
+- Using a simple differencial robot
+
+    ```sh
+    roslaunch robots_roboticamovel_2018_2 simple_differential.launch
+    ```
+
+- Using a simple holonomic robot
+
+    ```sh
+    roslaunch robots_roboticamovel_2018_2 simple_holonomic.launch
+    ```
+
 - Using a Pioneer DX model with a 270 hokuyo laser (differencial)
 
     ```sh
