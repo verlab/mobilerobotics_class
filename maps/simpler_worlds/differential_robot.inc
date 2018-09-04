@@ -1,3 +1,5 @@
+# ranger defines a laser sensor in the simulation
+# see for details: http://playerstage.sourceforge.net/doc/stage-cvs/group__model__laser.html
 define hokuyolaser ranger
 (
   sensor(

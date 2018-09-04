@@ -1,3 +1,6 @@
+# ranger defines a laser sensor in the simulation
+# this laser has a 180 field of view!
+# see for details: http://playerstage.sourceforge.net/doc/stage-cvs/group__model__laser.html
 define hokuyolaser ranger
 (
   sensor(
@@ -13,6 +16,8 @@ define hokuyolaser ranger
   size [ 0.156 0.155 0.19 ] # dimensions from LMS200 data sheet
 )
 
+# our robot definition
+# see for details: http://playerstage.sourceforge.net/doc/stage-cvs/group__model__position.html
 define turtlebot position
 (
   pose [ 0.0 0.0 0.0 0.0 ]

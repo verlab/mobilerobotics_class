@@ -1,6 +1,9 @@
+# import the other files to add a basic 'world' template and our robot file
 include "differential_robot.inc"
 include "map.inc"
 
+# window configurations for this simulation instance
+# see for detaiils: http://playerstage.sourceforge.net/doc/stage-cvs/group__window.html
 window
 ( 
   size [ 811.000 642.000 ] 
@@ -10,6 +13,8 @@ window
   show_data 1
 )
 
+# the 'floor' used, generally is a png/bmp file 
+# see: http://playerstage.sourceforge.net/doc/stage-cvs/group__model.html
 floorplan
 ( 
   bitmap "hospital_section.png" 
@@ -21,6 +26,8 @@ floorplan
   gui_outline 1
 )
 
+# our robot from holonomic_robot.inc
+# see for details: http://playerstage.sourceforge.net/doc/stage-cvs/group__model__position.html
 pioneer(
   name "differential_robot"
   pose [-9.313 0.477 0 0]
