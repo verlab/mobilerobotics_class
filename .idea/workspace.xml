@@ -3,66 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="e6e3fc7a-5a2d-4f25-a110-85621352827e" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/launch/kobuki_stage_laser180.launch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/launch/pioneerat_stage_laser270.launch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/launch/pioneerdx_stage_laser270.launch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/launch/simple_differential.launch" beforeDir="false" afterPath="$PROJECT_DIR$/launch/simple_differential.launch" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/launch/simple_holonomic.launch" beforeDir="false" afterPath="$PROJECT_DIR$/launch/simple_holonomic.launch" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/maps/hospital_section.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/maps/maze.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/maps/maze.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/maps/robopark2.bmp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/maps/robopark_plan.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/maps/simpler_worlds/differential_map.world" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/maps/simpler_worlds/differential_robot.inc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/maps/simpler_worlds/holonomic_map.world" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/maps/simpler_worlds/holonomic_robot.inc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/maps/simpler_worlds/hospital_section.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/maps/simpler_worlds/map.inc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/maps/stage/maze_kobuki.world" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/maps/stage/maze_pioneer.world" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/maps/stage/pioneer.inc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/maps/stage/robopark_plan.world" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/maps/stage/turtlebot.inc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/meshes/original/body.stl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/meshes/original/caster_mount.stl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/meshes/original/caster_plate.stl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/meshes/original/chassis_top.stl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/meshes/original/pioneer3dx.stl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/meshes/original/sonars.stl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/meshes/original/tires.stl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/meshes/original/top_plate.stl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/meshes/original/wheels-center.stl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/meshes/p3at_meshes/Coordinates" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/meshes/p3at_meshes/axle.stl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/meshes/p3at_meshes/back_sonar.stl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/meshes/p3at_meshes/chassis.stl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/meshes/p3at_meshes/front_sonar.stl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/meshes/p3at_meshes/left_hubcap.stl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/meshes/p3at_meshes/right_hubcap.stl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/meshes/p3at_meshes/top.stl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/meshes/p3at_meshes/wheel.stl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/meshes/p3dx_meshes/Coordinates" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/meshes/p3dx_meshes/back_rim.stl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/meshes/p3dx_meshes/back_sonar.stl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/meshes/p3dx_meshes/center_hubcap.stl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/meshes/p3dx_meshes/center_wheel.stl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/meshes/p3dx_meshes/chassis.stl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/meshes/p3dx_meshes/front_rim.stl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/meshes/p3dx_meshes/front_sonar.stl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/meshes/p3dx_meshes/left_hubcap.stl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/meshes/p3dx_meshes/left_wheel.stl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/meshes/p3dx_meshes/right_hubcap.stl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/meshes/p3dx_meshes/right_wheel.stl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/meshes/p3dx_meshes/swivel.stl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/meshes/p3dx_meshes/top.stl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/robots/kobuki_hexagons_hokuyo.urdf.xacro" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/robots/materials.xacro" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/robots/pioneer3at.xacro" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/robots/pioneer3at_body.xacro" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/robots/pioneer3dx.xacro" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/robots/pioneer3dx_body.xacro" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/robots/pioneer3dx_wheel.xacro" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -97,13 +37,13 @@
         <counts>
           <entry key="inc" value="1141" />
           <entry key="launch" value="39" />
-          <entry key="md" value="43" />
+          <entry key="md" value="87" />
           <entry key="world" value="80" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Markdown" value="43" />
+          <entry key="Markdown" value="87" />
           <entry key="PLAIN_TEXT" value="1260" />
         </counts>
       </usages-collector>
@@ -129,12 +69,12 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="587">
-                <caret line="43" column="9" selection-start-line="43" selection-start-column="9" selection-end-line="43" selection-end-column="9" />
+              <first_editor relative-caret-position="107">
+                <caret line="11" column="50" selection-start-line="11" selection-start-column="50" selection-end-line="11" selection-end-column="50" />
               </first_editor>
               <second_editor />
             </state>
@@ -159,7 +99,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/launch/simple_holonomic.launch">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="30">
@@ -206,10 +146,10 @@
         <option value="$PROJECT_DIR$/stage_models/sick.inc" />
         <option value="$PROJECT_DIR$/stage_models/differential_robot.inc" />
         <option value="$PROJECT_DIR$/launch/simple_holonomic.launch" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/stage_models/holonomic_robot.inc" />
         <option value="$PROJECT_DIR$/stage_models/differential_map.world" />
         <option value="$PROJECT_DIR$/stage_models/holonomic_map.world" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -331,16 +271,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="587">
-            <caret line="43" column="9" selection-start-line="43" selection-start-column="9" selection-end-line="43" selection-end-column="9" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/stage_models/differential_robot.inc">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="4275">
@@ -387,6 +317,16 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
           <caret line="2" column="86" selection-start-line="2" selection-start-column="86" selection-end-line="2" selection-end-column="86" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="107">
+            <caret line="11" column="50" selection-start-line="11" selection-start-column="50" selection-end-line="11" selection-end-column="50" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>

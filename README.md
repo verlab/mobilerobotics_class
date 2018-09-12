@@ -9,7 +9,7 @@ Stage sim             |  Rviz visualization
 
 This setup was tested in ROS Kinetic, running on Ubuntu 16.04 LTS.
 
-Install the dependencies and devDependencies and start the server.
+Download from github and install the dependencies:
 
 ```sh
 $ cd ~/catkin_ws/src/
@@ -43,7 +43,7 @@ rosrun teleop_twist_keyboard teleop_twist_keyboard.py cmd_vel:=/cmd_vel
 
 ### Todos
 
- - Write MORE Tests
+ - Add more robots
 
 License
 ----
