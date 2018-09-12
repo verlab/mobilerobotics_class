@@ -6,11 +6,11 @@ include "map.inc"
 # see for detaiils: http://playerstage.sourceforge.net/doc/stage-cvs/group__window.html
 window
 ( 
-    size [ 811.000 642.000 ]
-    center [-7.205 1.437]
-    scale 71.472 # pixels per meter
-
-    show_data 1
+  size [ 500.000 500.000 ] 
+  center [-0.077 -0.231] 
+  rotate [ 0 0 ]
+  scale 26.000 
+  show_data 1 # make sure we can see the effect of the controller
 )
 
 # the 'floor' used, generally is a png/bmp file 
