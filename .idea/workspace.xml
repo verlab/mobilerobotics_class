@@ -2,7 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e6e3fc7a-5a2d-4f25-a110-85621352827e" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rviz/simple_robot.rviz" beforeDir="false" afterPath="$PROJECT_DIR$/rviz/simple_robot.rviz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rviz/turtlebot_navigation.rviz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stage_models/bitmaps/hospital_section.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stage_models/differential_map.world" beforeDir="false" afterPath="$PROJECT_DIR$/stage_models/differential_map.world" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stage_models/differential_robot.inc" beforeDir="false" afterPath="$PROJECT_DIR$/stage_models/differential_robot.inc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stage_models/hokuyo_laser.inc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stage_models/holonomic_map.world" beforeDir="false" afterPath="$PROJECT_DIR$/stage_models/holonomic_map.world" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stage_models/holonomic_robot.inc" beforeDir="false" afterPath="$PROJECT_DIR$/stage_models/holonomic_robot.inc" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -16,35 +25,40 @@
         <counts>
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.4" value="1" />
-          <entry key="project.opened" value="2" />
+          <entry key="project.open.time.9" value="1" />
+          <entry key="project.opened" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="inc" value="4" />
+          <entry key="inc" value="7" />
           <entry key="launch" value="2" />
-          <entry key="md" value="1" />
-          <entry key="world" value="2" />
+          <entry key="md" value="2" />
+          <entry key="world" value="5" />
+          <entry key="yaml" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Markdown" value="1" />
-          <entry key="PLAIN_TEXT" value="8" />
+          <entry key="Markdown" value="2" />
+          <entry key="PLAIN_TEXT" value="14" />
+          <entry key="YAML" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="inc" value="1141" />
+          <entry key="inc" value="1185" />
           <entry key="launch" value="39" />
-          <entry key="md" value="87" />
-          <entry key="world" value="80" />
+          <entry key="md" value="390" />
+          <entry key="world" value="96" />
+          <entry key="yaml" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Markdown" value="87" />
-          <entry key="PLAIN_TEXT" value="1260" />
+          <entry key="Markdown" value="390" />
+          <entry key="PLAIN_TEXT" value="1320" />
+          <entry key="YAML" value="1" />
         </counts>
       </usages-collector>
     </session>
@@ -54,17 +68,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/stage_models/differential_robot.inc">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="4275">
-              <caret line="285" selection-start-line="285" selection-end-line="285" />
+            <state relative-caret-position="506">
+              <caret line="90" column="101" lean-forward="true" selection-start-line="90" selection-start-column="4" selection-end-line="90" selection-end-column="101" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/stage_models/holonomic_robot.inc">
+        <entry file="file://$PROJECT_DIR$/stage_models/differential_map.world">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="148">
-              <caret line="84" column="16" selection-start-line="84" selection-start-column="16" selection-end-line="84" selection-end-column="16" />
+            <state relative-caret-position="195">
+              <caret line="13" column="1" lean-forward="true" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -73,8 +87,8 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="107">
-                <caret line="11" column="50" selection-start-line="11" selection-start-column="50" selection-end-line="11" selection-end-column="50" />
+              <first_editor relative-caret-position="900">
+                <caret line="60" column="5" lean-forward="true" selection-start-line="60" selection-start-column="5" selection-end-line="60" selection-end-column="5" />
               </first_editor>
               <second_editor />
             </state>
@@ -82,46 +96,28 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/stage_models/holonomic_robot.inc">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="568">
+              <caret line="96" column="6" lean-forward="true" selection-start-line="96" selection-start-column="6" selection-end-line="96" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/stage_models/holonomic_map.world">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="495">
-              <caret line="33" column="1" lean-forward="true" selection-start-line="33" selection-start-column="1" selection-end-line="33" selection-end-column="1" />
+            <state relative-caret-position="465">
+              <caret line="31" column="26" lean-forward="true" selection-start-line="31" selection-start-column="26" selection-end-line="31" selection-end-column="26" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/stage_models/map.inc">
+        <entry file="file://$PROJECT_DIR$/stage_models/bitmaps/cave.yaml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="18" column="12" lean-forward="true" selection-start-line="18" selection-start-column="12" selection-end-line="18" selection-end-column="12" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/launch/simple_holonomic.launch">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="86" selection-start-line="2" selection-start-column="86" selection-end-line="2" selection-end-column="86" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/stage_models/differential_map.world">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="20" column="23" lean-forward="true" selection-start-line="20" selection-start-column="23" selection-end-line="20" selection-end-column="23" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/launch/simple_differential.launch">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="23" column="9" selection-start-line="23" selection-start-column="9" selection-end-line="23" selection-end-column="9" />
+            <state relative-caret-position="90">
+              <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
             </state>
           </provider>
         </entry>
@@ -144,20 +140,21 @@
       <list>
         <option value="$PROJECT_DIR$/launch/simple_differential.launch" />
         <option value="$PROJECT_DIR$/stage_models/sick.inc" />
-        <option value="$PROJECT_DIR$/stage_models/differential_robot.inc" />
         <option value="$PROJECT_DIR$/launch/simple_holonomic.launch" />
-        <option value="$PROJECT_DIR$/stage_models/holonomic_robot.inc" />
-        <option value="$PROJECT_DIR$/stage_models/differential_map.world" />
+        <option value="$PROJECT_DIR$/stage_models/bitmaps/cave.yaml" />
         <option value="$PROJECT_DIR$/stage_models/holonomic_map.world" />
+        <option value="$PROJECT_DIR$/stage_models/differential_map.world" />
+        <option value="$PROJECT_DIR$/stage_models/differential_robot.inc" />
+        <option value="$PROJECT_DIR$/stage_models/holonomic_robot.inc" />
         <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="960" />
+    <option name="x" value="959" />
     <option name="y" value="25" />
-    <option name="width" value="960" />
-    <option name="height" value="1030" />
+    <option name="width" value="952" />
+    <option name="height" value="1031" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -175,11 +172,6 @@
               <item name="robots_roboticamovel_2018_2" type="b2602c69:ProjectViewProjectNode" />
               <item name="robots_roboticamovel_2018_2" type="462c0819:PsiDirectoryNode" />
               <item name="img" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="robots_roboticamovel_2018_2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="robots_roboticamovel_2018_2" type="462c0819:PsiDirectoryNode" />
-              <item name="include" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="robots_roboticamovel_2018_2" type="b2602c69:ProjectViewProjectNode" />
@@ -264,52 +256,11 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/stage_models/sick.inc">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="898">
-          <caret line="74" lean-forward="true" selection-start-line="74" selection-end-line="74" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/stage_models/differential_robot.inc">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4275">
-          <caret line="285" selection-start-line="285" selection-end-line="285" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/stage_models/holonomic_robot.inc">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="148">
-          <caret line="84" column="16" selection-start-line="84" selection-start-column="16" selection-end-line="84" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/stage_models/holonomic_map.world">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
-          <caret line="33" column="1" lean-forward="true" selection-start-line="33" selection-start-column="1" selection-end-line="33" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/stage_models/sick.inc" />
     <entry file="file://$PROJECT_DIR$/stage_models/map.inc">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
-          <caret line="18" column="12" lean-forward="true" selection-start-line="18" selection-start-column="12" selection-end-line="18" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/stage_models/differential_map.world">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="23" lean-forward="true" selection-start-line="20" selection-start-column="23" selection-end-line="20" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/launch/simple_differential.launch">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" column="9" selection-start-line="23" selection-start-column="9" selection-end-line="23" selection-end-column="9" />
+          <caret line="18" column="12" selection-start-line="18" selection-start-column="12" selection-end-line="18" selection-end-column="12" />
         </state>
       </provider>
     </entry>
@@ -320,11 +271,56 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/launch/simple_differential.launch">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" column="9" selection-start-line="23" selection-start-column="9" selection-end-line="23" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stage_models/hokuyo_laser.inc">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stage_models/bitmaps/cave.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stage_models/differential_map.world">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="1" lean-forward="true" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stage_models/holonomic_map.world">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="31" column="26" lean-forward="true" selection-start-line="31" selection-start-column="26" selection-end-line="31" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stage_models/differential_robot.inc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="506">
+          <caret line="90" column="101" lean-forward="true" selection-start-line="90" selection-start-column="4" selection-end-line="90" selection-end-column="101" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stage_models/holonomic_robot.inc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="568">
+          <caret line="96" column="6" lean-forward="true" selection-start-line="96" selection-start-column="6" selection-end-line="96" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="107">
-            <caret line="11" column="50" selection-start-line="11" selection-start-column="50" selection-end-line="11" selection-end-column="50" />
+          <first_editor relative-caret-position="900">
+            <caret line="60" column="5" lean-forward="true" selection-start-line="60" selection-start-column="5" selection-end-line="60" selection-end-column="5" />
           </first_editor>
           <second_editor />
         </state>

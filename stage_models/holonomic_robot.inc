@@ -71,27 +71,15 @@ define hokuyolaser180 ranger
     )
 )
 
-
-define turtlebot position
-(
-    pose [ 0.0 0.0 0.0 0.0 ]
-
-    odom_error [0.03 0.03 999999 999999 999999 0.02]
-
-    size [ 0.2552 0.2552 0.40 ]
-    origin [ 0.0 0.0 0.0 0.0 ]
-    gui_nose 1
-    drive "omni"
-    color "gray"
-
-    hokuyolaser(pose [ -0.1 0.0 -0.11 0.0 ])
-)
-
 # our robot definition
 # see for details: http://playerstage.sourceforge.net/doc/stage-cvs/group__model__position.html
 define roomba position
 (
-    odom_error [0.03 0.03 0 0 0 0.02]
+    # localization "odom"         		# Change to "gps" to have impossibly perfect, global odometry
+    # odom_error [0.03 0.03 0 0 0 0.02]
+
+    localization "gps"
+    localization_origin [0 0 0 0] 	# Start odometry at (0, 0, 0).
 
     size [0.33 0.33 0.1]
     drive "omni"

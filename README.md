@@ -30,12 +30,33 @@ There are several options to running the simulations:
     roslaunch robots_roboticamovel_2018_2 simple_differential.launch
     ```
 
-- Using a simple holonomic robot (Turtlebot)
+- Or using a simple holonomic robot (Turtlebot)
 
     ```sh
     roslaunch robots_roboticamovel_2018_2 simple_holonomic.launch
     ```
-    
+
+After the robot and the simulation is started:
+ 
+- Create the map server:
+
+    ```bash
+    rosrun map_server map_server `rospack find robots_roboticamovel_2018_2`/stage_models/bitmaps/cave.yaml
+    ```
+
+- The ft (transformations) between the map and the odometer information:
+
+    ```bash
+    rosrun tf static_transform_publisher -8 -8 0 0 0 0 1 /odom /map 10
+    ```
+
+- Visuzalize the robot odometry and the laser scan:
+
+    ```bash
+    rosrun rviz rviz -d `rospack find robots_roboticamovel_2018_2`/rviz/simple_robot.rviz
+    ```
+
+
 Running the teleop node to control the robot with the keyboard:
 ```sh
 rosrun teleop_twist_keyboard teleop_twist_keyboard.py cmd_vel:=/cmd_vel

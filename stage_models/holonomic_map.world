@@ -17,18 +17,18 @@ window
 # see: http://playerstage.sourceforge.net/doc/stage-cvs/group__model.html
 floorplan
 ( 
-  bitmap "bitmaps/cave.png"
-  map_resolution 0.02
-  size [16.000 16.000 0.500]
-  name "cave"
-  color "gray50"
-  gui_grid 1
-  gui_outline 1
+    bitmap "bitmaps/cave.png"
+    map_resolution 0.032
+    size [16.000 16.000 0.500]
+    name "cave"
+    color "gray50"
+    gui_grid 1
+    gui_outline 1
 )
 
 # our robot from holonomic_robot.inc
 # see for details: http://playerstage.sourceforge.net/doc/stage-cvs/group__model__position.html
 roomba(
-  name "holonomic_robot"
-  pose [-7.000 -7.000 0 45.000]
+    name "holonomic_robot"
+    pose [-7 -7 0 0]
 )

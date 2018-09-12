@@ -18,7 +18,7 @@ window
 floorplan
 ( 
     bitmap "bitmaps/cave.png"
-    map_resolution 0.02
+    map_resolution 0.032
     size [16.000 16.000 0.500]
     name "cave"
     color "gray50"
@@ -30,5 +30,5 @@ floorplan
 # see for details: http://playerstage.sourceforge.net/doc/stage-cvs/group__model__position.html
 pioneer_with_hokuyo(
     name "differential_robot"
-    pose [-7.000 -7.000 0 45.000]
+    pose [-7 -7 0 0]
 )
