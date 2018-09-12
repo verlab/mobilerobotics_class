@@ -1,18 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e6e3fc7a-5a2d-4f25-a110-85621352827e" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rviz/simple_robot.rviz" beforeDir="false" afterPath="$PROJECT_DIR$/rviz/simple_robot.rviz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rviz/turtlebot_navigation.rviz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/stage_models/bitmaps/hospital_section.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/stage_models/differential_map.world" beforeDir="false" afterPath="$PROJECT_DIR$/stage_models/differential_map.world" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stage_models/differential_robot.inc" beforeDir="false" afterPath="$PROJECT_DIR$/stage_models/differential_robot.inc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stage_models/hokuyo_laser.inc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/stage_models/holonomic_map.world" beforeDir="false" afterPath="$PROJECT_DIR$/stage_models/holonomic_map.world" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stage_models/holonomic_robot.inc" beforeDir="false" afterPath="$PROJECT_DIR$/stage_models/holonomic_robot.inc" afterDir="false" />
-    </list>
+    <list default="true" id="e6e3fc7a-5a2d-4f25-a110-85621352827e" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -87,8 +76,8 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="900">
-                <caret line="60" column="5" lean-forward="true" selection-start-line="60" selection-start-column="5" selection-end-line="60" selection-end-column="5" />
+              <first_editor relative-caret-position="510">
+                <caret line="34" column="9" lean-forward="true" selection-start-line="34" selection-start-column="9" selection-end-line="34" selection-end-column="9" />
               </first_editor>
               <second_editor />
             </state>
@@ -167,32 +156,6 @@
             <path>
               <item name="robots_roboticamovel_2018_2" type="b2602c69:ProjectViewProjectNode" />
               <item name="robots_roboticamovel_2018_2" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="robots_roboticamovel_2018_2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="robots_roboticamovel_2018_2" type="462c0819:PsiDirectoryNode" />
-              <item name="img" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="robots_roboticamovel_2018_2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="robots_roboticamovel_2018_2" type="462c0819:PsiDirectoryNode" />
-              <item name="launch" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="robots_roboticamovel_2018_2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="robots_roboticamovel_2018_2" type="462c0819:PsiDirectoryNode" />
-              <item name="rviz" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="robots_roboticamovel_2018_2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="robots_roboticamovel_2018_2" type="462c0819:PsiDirectoryNode" />
-              <item name="stage_models" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="robots_roboticamovel_2018_2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="robots_roboticamovel_2018_2" type="462c0819:PsiDirectoryNode" />
-              <item name="stage_models" type="462c0819:PsiDirectoryNode" />
-              <item name="bitmaps" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -319,8 +282,8 @@
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="900">
-            <caret line="60" column="5" lean-forward="true" selection-start-line="60" selection-start-column="5" selection-end-line="60" selection-end-column="5" />
+          <first_editor relative-caret-position="510">
+            <caret line="34" column="9" lean-forward="true" selection-start-line="34" selection-start-column="9" selection-end-line="34" selection-end-column="9" />
           </first_editor>
           <second_editor />
         </state>
