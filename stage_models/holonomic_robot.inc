@@ -1,0 +1,126 @@
+# ranger defines a laser sensor in the simulation
+# see for details: http://playerstage.sourceforge.net/doc/stage-cvs/group__model__laser.html
+define hokuyolaser180 ranger
+(
+    sensor
+    (
+        range [ 0.0 8.0 ]
+        fov 180.0
+        samples 361
+    )
+
+    #samples 90 # still useful but much faster to compute
+
+    # generic model properties
+    # the following block directives generates the visual layout of the sensor
+    # sensor image https://www.hokuyo-aut.jp/search/single.php?serial=169
+
+    size [ 0.07 0.07 0.05 ] # dimensions from LMS200 data sheet
+
+    # gray base
+    block
+    (
+        points 4
+        point[0] [0 0]
+        point[1] [0 0.03]
+        point[2] [0.03 0.03]
+        point[3] [0.03 0]
+        z [0.00 0.05]
+        color "gray"
+    )
+
+    # black cylinder
+    block
+    (
+
+        points 8
+        point[0] [0.01 0.005]
+        point[1] [0.02 0.005]
+        point[2] [0.025 0.01]
+        point[3] [0.025 0.02]
+        point[4] [0.02 0.025]
+        point[5] [0.01 0.025]
+        point[6] [0.005 0.02]
+        point[7] [0.005 0.01]
+        z [0.05 0.12]
+        color "black"
+    )
+
+    # orange top
+    block
+    (
+        points 4
+        point[0] [0.005 0.005]
+        point[1] [0.025 0.005]
+        point[2] [0.025 0.025]
+        point[3] [0.005 0.025]
+        z [0.12 0.14]
+        color "orange"
+    )
+
+    # black top
+    block
+    (
+        points 4
+        point[0] [0.005 0.005]
+        point[1] [0.025 0.005]
+        point[2] [0.025 0.025]
+        point[3] [0.005 0.025]
+        z [0.14 0.15]
+        color "black"
+    )
+)
+
+
+define turtlebot position
+(
+    pose [ 0.0 0.0 0.0 0.0 ]
+
+    odom_error [0.03 0.03 999999 999999 999999 0.02]
+
+    size [ 0.2552 0.2552 0.40 ]
+    origin [ 0.0 0.0 0.0 0.0 ]
+    gui_nose 1
+    drive "omni"
+    color "gray"
+
+    hokuyolaser(pose [ -0.1 0.0 -0.11 0.0 ])
+)
+
+# our robot definition
+# see for details: http://playerstage.sourceforge.net/doc/stage-cvs/group__model__position.html
+define roomba position
+(
+    odom_error [0.03 0.03 0 0 0 0.02]
+
+    size [0.33 0.33 0.1]
+    drive "omni"
+    gui_nose 1
+
+
+    # this block approximates the circular shape of a Roomba
+    block(
+        points 16
+        point[0] [ 0.225 0.000 ]
+        point[1] [ 0.208 0.086 ]
+        point[2] [ 0.159 0.159 ]
+        point[3] [ 0.086 0.208 ]
+        point[4] [ 0.000 0.225 ]
+        point[5] [ -0.086 0.208 ]
+        point[6] [ -0.159 0.159 ]
+        point[7] [ -0.208 0.086 ]
+        point[8] [ -0.225 0.000 ]
+        point[9] [ -0.208 -0.086 ]
+        point[10] [ -0.159 -0.159 ]
+        point[11] [ -0.086 -0.208 ]
+        point[12] [ -0.000 -0.225 ]
+        point[13] [ 0.086 -0.208 ]
+        point[14] [ 0.159 -0.159 ]
+        point[15] [ 0.208 -0.086 ]
+        z [0 0.1]
+    )
+
+    color "gray90"
+
+    hokuyolaser180(pose [0.0 0.0 0.0 0.0])
+)

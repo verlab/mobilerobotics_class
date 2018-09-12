@@ -1,0 +1,394 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="e6e3fc7a-5a2d-4f25-a110-85621352827e" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/launch/kobuki_stage_laser180.launch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/launch/pioneerat_stage_laser270.launch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/launch/pioneerdx_stage_laser270.launch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/launch/simple_differential.launch" beforeDir="false" afterPath="$PROJECT_DIR$/launch/simple_differential.launch" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/launch/simple_holonomic.launch" beforeDir="false" afterPath="$PROJECT_DIR$/launch/simple_holonomic.launch" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/maps/hospital_section.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/maps/maze.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/maps/maze.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/maps/robopark2.bmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/maps/robopark_plan.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/maps/simpler_worlds/differential_map.world" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/maps/simpler_worlds/differential_robot.inc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/maps/simpler_worlds/holonomic_map.world" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/maps/simpler_worlds/holonomic_robot.inc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/maps/simpler_worlds/hospital_section.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/maps/simpler_worlds/map.inc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/maps/stage/maze_kobuki.world" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/maps/stage/maze_pioneer.world" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/maps/stage/pioneer.inc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/maps/stage/robopark_plan.world" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/maps/stage/turtlebot.inc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/meshes/original/body.stl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/meshes/original/caster_mount.stl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/meshes/original/caster_plate.stl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/meshes/original/chassis_top.stl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/meshes/original/pioneer3dx.stl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/meshes/original/sonars.stl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/meshes/original/tires.stl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/meshes/original/top_plate.stl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/meshes/original/wheels-center.stl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/meshes/p3at_meshes/Coordinates" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/meshes/p3at_meshes/axle.stl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/meshes/p3at_meshes/back_sonar.stl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/meshes/p3at_meshes/chassis.stl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/meshes/p3at_meshes/front_sonar.stl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/meshes/p3at_meshes/left_hubcap.stl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/meshes/p3at_meshes/right_hubcap.stl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/meshes/p3at_meshes/top.stl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/meshes/p3at_meshes/wheel.stl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/meshes/p3dx_meshes/Coordinates" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/meshes/p3dx_meshes/back_rim.stl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/meshes/p3dx_meshes/back_sonar.stl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/meshes/p3dx_meshes/center_hubcap.stl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/meshes/p3dx_meshes/center_wheel.stl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/meshes/p3dx_meshes/chassis.stl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/meshes/p3dx_meshes/front_rim.stl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/meshes/p3dx_meshes/front_sonar.stl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/meshes/p3dx_meshes/left_hubcap.stl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/meshes/p3dx_meshes/left_wheel.stl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/meshes/p3dx_meshes/right_hubcap.stl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/meshes/p3dx_meshes/right_wheel.stl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/meshes/p3dx_meshes/swivel.stl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/meshes/p3dx_meshes/top.stl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/robots/kobuki_hexagons_hokuyo.urdf.xacro" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/robots/materials.xacro" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/robots/pioneer3at.xacro" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/robots/pioneer3at_body.xacro" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/robots/pioneer3dx.xacro" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/robots/pioneer3dx_body.xacro" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/robots/pioneer3dx_wheel.xacro" beforeDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="994054310">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.open.time.1" value="1" />
+          <entry key="project.open.time.4" value="1" />
+          <entry key="project.opened" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="inc" value="4" />
+          <entry key="launch" value="2" />
+          <entry key="md" value="1" />
+          <entry key="world" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="Markdown" value="1" />
+          <entry key="PLAIN_TEXT" value="8" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="inc" value="1141" />
+          <entry key="launch" value="39" />
+          <entry key="md" value="43" />
+          <entry key="world" value="80" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="Markdown" value="43" />
+          <entry key="PLAIN_TEXT" value="1260" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/stage_models/differential_robot.inc">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="4275">
+              <caret line="285" selection-start-line="285" selection-end-line="285" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/stage_models/holonomic_robot.inc">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="148">
+              <caret line="84" column="16" selection-start-line="84" selection-start-column="16" selection-end-line="84" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="587">
+                <caret line="43" column="9" selection-start-line="43" selection-start-column="9" selection-end-line="43" selection-end-column="9" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/stage_models/holonomic_map.world">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="495">
+              <caret line="33" column="1" lean-forward="true" selection-start-line="33" selection-start-column="1" selection-end-line="33" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/stage_models/map.inc">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="18" column="12" lean-forward="true" selection-start-line="18" selection-start-column="12" selection-end-line="18" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/launch/simple_holonomic.launch">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" column="86" selection-start-line="2" selection-start-column="86" selection-end-line="2" selection-end-column="86" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/stage_models/differential_map.world">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="300">
+              <caret line="20" column="23" lean-forward="true" selection-start-line="20" selection-start-column="23" selection-end-line="20" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/launch/simple_differential.launch">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="345">
+              <caret line="23" column="9" selection-start-line="23" selection-start-column="9" selection-end-line="23" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>odom_error</find>
+      <find>p2dx_sonar</find>
+      <find>pioneer2dx_base_no_sonar</find>
+      <find>pioneer2dx_base</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/launch/simple_differential.launch" />
+        <option value="$PROJECT_DIR$/stage_models/sick.inc" />
+        <option value="$PROJECT_DIR$/stage_models/differential_robot.inc" />
+        <option value="$PROJECT_DIR$/launch/simple_holonomic.launch" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/stage_models/holonomic_robot.inc" />
+        <option value="$PROJECT_DIR$/stage_models/differential_map.world" />
+        <option value="$PROJECT_DIR$/stage_models/holonomic_map.world" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="960" />
+    <option name="y" value="25" />
+    <option name="width" value="960" />
+    <option name="height" value="1030" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="robots_roboticamovel_2018_2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="robots_roboticamovel_2018_2" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="robots_roboticamovel_2018_2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="robots_roboticamovel_2018_2" type="462c0819:PsiDirectoryNode" />
+              <item name="img" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="robots_roboticamovel_2018_2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="robots_roboticamovel_2018_2" type="462c0819:PsiDirectoryNode" />
+              <item name="include" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="robots_roboticamovel_2018_2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="robots_roboticamovel_2018_2" type="462c0819:PsiDirectoryNode" />
+              <item name="launch" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="robots_roboticamovel_2018_2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="robots_roboticamovel_2018_2" type="462c0819:PsiDirectoryNode" />
+              <item name="rviz" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="robots_roboticamovel_2018_2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="robots_roboticamovel_2018_2" type="462c0819:PsiDirectoryNode" />
+              <item name="stage_models" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="robots_roboticamovel_2018_2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="robots_roboticamovel_2018_2" type="462c0819:PsiDirectoryNode" />
+              <item name="stage_models" type="462c0819:PsiDirectoryNode" />
+              <item name="bitmaps" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e6e3fc7a-5a2d-4f25-a110-85621352827e" name="Default Changelist" comment="" />
+      <created>1536697709025</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1536697709025</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-1" y="25" width="1922" height="1035" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24986821" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Python Console" order="10" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/stage_models/sick.inc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="898">
+          <caret line="74" lean-forward="true" selection-start-line="74" selection-end-line="74" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="587">
+            <caret line="43" column="9" selection-start-line="43" selection-start-column="9" selection-end-line="43" selection-end-column="9" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stage_models/differential_robot.inc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4275">
+          <caret line="285" selection-start-line="285" selection-end-line="285" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stage_models/holonomic_robot.inc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="148">
+          <caret line="84" column="16" selection-start-line="84" selection-start-column="16" selection-end-line="84" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stage_models/holonomic_map.world">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="33" column="1" lean-forward="true" selection-start-line="33" selection-start-column="1" selection-end-line="33" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stage_models/map.inc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="12" lean-forward="true" selection-start-line="18" selection-start-column="12" selection-end-line="18" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stage_models/differential_map.world">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="23" lean-forward="true" selection-start-line="20" selection-start-column="23" selection-end-line="20" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/launch/simple_differential.launch">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" column="9" selection-start-line="23" selection-start-column="9" selection-end-line="23" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/launch/simple_holonomic.launch">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="86" selection-start-line="2" selection-start-column="86" selection-end-line="2" selection-end-column="86" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

@@ -1,6 +1,6 @@
 <launch>
   <!-- Name of the world file to use -->
-  <arg name="world_file"     default="$(find robots_roboticamovel_2018_2)/maps/simpler_worlds/differential_map.world"/>
+  <arg name="world_file"     default="$(find robots_roboticamovel_2018_2)/stage_models/differential_map.world"/>
   <param name="/use_sim_time" value="true"/>
 
   <!--  ******************** Stage ********************  -->

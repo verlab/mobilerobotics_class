@@ -1,5 +1,5 @@
 # import the other files to add a basic 'world' template and our robot file
-include "differential_robot.inc"
+include "holonomic_robot.inc"
 include "map.inc"
 
 # window configurations for this simulation instance
@@ -17,7 +17,7 @@ window
 # see: http://playerstage.sourceforge.net/doc/stage-cvs/group__model.html
 floorplan
 ( 
-  bitmap "hospital_section.png" 
+  bitmap "bitmaps/cave.png"
   map_resolution 0.02
   size [40.000 18.000 0.600] 
   name "hospital"
@@ -28,7 +28,7 @@ floorplan
 
 # our robot from holonomic_robot.inc
 # see for details: http://playerstage.sourceforge.net/doc/stage-cvs/group__model__position.html
-pioneer(
-  name "differential_robot"
+roomba(
+  name "holonomic_robot"
   pose [-9.313 0.477 0 0]
 )
