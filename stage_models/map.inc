@@ -25,5 +25,5 @@ define floorplan model
   ranger_return 0.5
   laser_return 1
 
-  obstacle_return 0
+  obstacle_return 1
 )
