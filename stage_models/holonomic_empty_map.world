@@ -1,0 +1,39 @@
+# import the other files to add a basic 'world' template and our robot file
+include "holonomic_robot.inc"
+include "map.inc"
+
+# window configurations for this simulation instance
+# docs stage v3.2.1: http://playerstage.sourceforge.net/doc/Stage-3.2.1/group__worldgui.html
+window
+( 
+    # camera options
+    size [ 500.000 500.000 ] 
+    center [-0.077 -0.231] 
+    rotate [ 0 0 ]
+    scale 26.000
+    
+    # GUI options
+    show_data 1 # make sure we can see the effect of the controller
+    show_footprints 1 # show robot footprint
+    show_grid 1 # show world grid
+)
+
+# the 'floor' used, generally is a png/bmp file 
+# docs stage v3.2.1: http://playerstage.sourceforge.net/doc/Stage-3.2.1/group__model.html
+floorplan
+( 
+    bitmap "bitmaps/empty.png"
+    map_resolution 0.032
+    size [16.000 16.000 0.500]
+    name "empty"
+    color "gray50"
+    gui_grid 1
+    gui_outline 1
+)
+
+# our robot from holonomic_robot.inc
+# docs stage v3.2.1: http://playerstage.sourceforge.net/doc/Stage-3.2.1/group__model.html
+roomba(
+    name "holonomic_robot"
+    pose [-7 -7 0 0]
+)

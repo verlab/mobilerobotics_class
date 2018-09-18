@@ -108,7 +108,9 @@ define roomba position
         z [0 0.1]
     )
 
-    color "gray90"
+    # the footprint color is the same as the robot base
+    #color "gray90"
+    color "red"
 
     hokuyolaser180(pose [0.0 0.0 0.0 0.0])
 )
