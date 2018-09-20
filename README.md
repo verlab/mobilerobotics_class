@@ -27,7 +27,7 @@ $ source devel/setup.bash
 
 ### Running the nodes
 
-1. First, choose one of the several options to run the [Stage Simulator](http://wiki.ros.org/stage ):
+1.Choose one of the several options to run the [Stage Simulator](http://wiki.ros.org/stage ):
    - To use a differencial robot (Pioneer DX):
 ```sh
 # Empty map
@@ -36,7 +36,6 @@ $ roslaunch robots_roboticamovel_2018_2 empty_differential.launch
 # Simple obstacles map
 $ roslaunch robots_roboticamovel_2018_2 simple_differential.launch
 ```
-
    - To use a holonomic robot (Turtlebot):
 ```sh
 # Empty map
@@ -47,23 +46,21 @@ $ roslaunch robots_roboticamovel_2018_2 simple_holonomic.launch
 ```
 
 
-2. After the robot and the simulation have been started:
+2.After the robot and the simulation have been started:
    - Create the map server:
 ```bash
 $ rosrun map_server map_server `rospack find robots_roboticamovel_2018_2`/stage_models/bitmaps/cave.yaml
 ```
-   
    - The ft (transformations) between the map and the odometer information:
 ```bash
 $ rosrun tf static_transform_publisher -8 -8 0 0 0 0 1 /odom /map 10
 ```
-   
    - Visuzalize the robot odometry and the laser scan:
 ```bash
 $ rosrun rviz rviz -d 'rospack find robots_roboticamovel_2018_2' /rviz/simple_robot.rviz
 ```
 
-3. Running the teleop node to control the robot with the keyboard:
+3.Running the teleop node to control the robot with the keyboard:
 ```sh
 $ rosrun teleop_twist_keyboard teleop_twist_keyboard.py cmd_vel:=/cmd_vel
 ```
