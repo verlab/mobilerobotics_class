@@ -28,6 +28,7 @@ $ source devel/setup.bash
 ### Running the nodes
 
 1.Choose one of the several options to run the [Stage Simulator](http://wiki.ros.org/stage ):
+
    a. To use a differencial robot (Pioneer DX):
 ```sh
 # Empty map
