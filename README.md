@@ -28,7 +28,7 @@ $ source devel/setup.bash
 ### Running the nodes
 
 1.Choose one of the several options to run the [Stage Simulator](http://wiki.ros.org/stage ):
-   - To use a differencial robot (Pioneer DX):
+   a. To use a differencial robot (Pioneer DX):
 ```sh
 # Empty map
 $ roslaunch robots_roboticamovel_2018_2 empty_differential.launch
@@ -36,7 +36,7 @@ $ roslaunch robots_roboticamovel_2018_2 empty_differential.launch
 # Simple obstacles map
 $ roslaunch robots_roboticamovel_2018_2 simple_differential.launch
 ```
-   - To use a holonomic robot (Turtlebot):
+   b. To use a holonomic robot (Turtlebot):
 ```sh
 # Empty map
 $ roslaunch robots_roboticamovel_2018_2 empty_holonomic.launch
@@ -49,6 +49,9 @@ $ roslaunch robots_roboticamovel_2018_2 simple_holonomic.launch
 2.After the robot and the simulation have been started:
    - Create the map server:
 ```bash
+# If using the empy map
+$ rosrun map_server map_server `rospack find robots_roboticamovel_2018_2`/stage_models/bitmaps/empty.yaml
+# if using simple map
 $ rosrun map_server map_server `rospack find robots_roboticamovel_2018_2`/stage_models/bitmaps/cave.yaml
 ```
    - The ft (transformations) between the map and the odometer information:
