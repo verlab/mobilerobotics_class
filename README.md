@@ -29,7 +29,7 @@ $ source devel/setup.bash
 
 1.Choose one of the several options to run the [Stage Simulator](http://wiki.ros.org/stage ):
 
-   a. To use a differencial robot (Pioneer DX):
+- To use a differencial robot (Pioneer DX):
 ```sh
 # Empty map
 $ roslaunch robots_roboticamovel_2018_2 empty_differential.launch
@@ -37,7 +37,7 @@ $ roslaunch robots_roboticamovel_2018_2 empty_differential.launch
 # Simple obstacles map
 $ roslaunch robots_roboticamovel_2018_2 simple_differential.launch
 ```
-   b. To use a holonomic robot (Turtlebot):
+- To use a holonomic robot (Turtlebot):
 ```sh
 # Empty map
 $ roslaunch robots_roboticamovel_2018_2 empty_holonomic.launch
